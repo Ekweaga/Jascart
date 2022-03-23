@@ -1,0 +1,316 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    height:500px;
+  
+  
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(59, 18, 18, 0.5)),url(phone4.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   padding-bottom:20px;
+  
+}
+.carousel-item{
+    background-image: linear-gradient(to right, rgba(49, 47, 47, 0.75), rgba(46, 6, 6, 0.5)),url(phone4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom:20px;
+
+}
+.kin{
+    font-size:20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .ok{
+    position: absolute;
+    bottom:0;
+    margin-left:40px;
+    margin-bottom: 100px;
+}
+.header .ok h3{
+    color:white;
+    font-size:35px;
+}
+.header .ok button{
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+    padding: 15px;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:80px;
+}
+.content h2{
+    text-align: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+button{
+    width: 150px;
+    background-color: crimson;
+    border:none;
+    outline:none;
+   margin-left:25px;
+    padding:10px;
+    transition: opacity 0.4s;
+    margin-top:20px;
+  
+}
+
+button:hover {
+    opacity: 0.7
+}
+p{
+    font-size:15px;
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:50px;
+
+}
+.services h1{
+   
+    color:rgb(19, 18, 18);
+    font-size: 15px;
+}
+
+.maincontent{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    height:300px;
+}
+.maincontent h1{
+    color:black;
+}
+.maincontent div{
+    color:black;
+}
+.item{
+    background-color: rgb(145, 110, 68);
+    max-width:100%;
+    height: 600px;
+    padding-top:50px;
+    color:white;
+    display:block;
+}
+.item .productitem{
+    display:flex;
+    overflow-y:hidden;
+    overflow-x: auto;
+   padding-left:20px;
+   padding-right:20px;
+}
+.item h4{
+    text-align: center;
+    font-size: 40px;
+}
+.product{
+    margin:20px;
+    color:rgb(5, 5, 5);
+    background-color: white;
+    padding:20px;
+}
+.product img{
+    width:200px;
+    height:200px;
+}
+.product p{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width:90%;
+    margin:auto;
+}
+.img img{
+    height:700px;
+    width:500px;
+    margin:25px;
+}
+.images{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:100px;
+    color:white;
+    font-size:50px;
+}
+.images h5:hover{
+    border-bottom: 2px solid white;
+}
+.images1 h5:hover{
+    border-bottom: 2px solid white;
+}
+.images div:hover{
+    transform: scale(1.1);
+    transition: all 2s ease-in;
+}
+.images1{
+    height:300px;
+    width:300px;
+    background-image: linear-gradient(to right, rgba(49, 47, 47, 0.75), rgba(46, 6, 6, 0.5)),url(phone11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.images2{
+    height:300px;
+    width:300px;
+    background-image: linear-gradient(to right, rgba(49, 47, 47, 0.75), rgba(46, 6, 6, 0.5)),url(phone2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.images3{
+    height:300px;
+    width:300px;
+    background-image: linear-gradient(to right, rgba(49, 47, 47, 0.75), rgba(46, 6, 6, 0.5)),url(phone12.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.morecontent button{
+    background-color: black;
+    color: antiquewhite;
+    padding:15px;
+    margin-left:200px;
+    margin-top:20px;
+}
+i{
+    font-size: 40px;
+    background-color: beige;
+    width:50px;
+    height:100px;
+}
+
+
+@media (max-width:600px){
+    .morecontent button{
+        background-color: black;
+        color: antiquewhite;
+        padding:15px;
+        margin-left:100px;
+    }
+    .content{
+        display:block;
+       width:100%;
+    }
+    img{
+        width:100%;
+        height:300px;
+        margin-top:30px;
+    }
+   .content button{
+        width: 50%;
+        margin-left:50px;
+    }
+    .services{
+        display:block;
+      
+       
+    }
+    .maincontent{
+        height: 500px;
+        margin-top: 15px;
+    }
+    .maincontent div h2{
+        text-align: center;
+    }
+    .header .ok{
+        position: absolute;
+        bottom:0;
+        margin-left:40px;
+        margin-bottom: 90px;
+    }
+    .header .ok h3{
+        color:white;
+        font-size:25px;
+    }
+    .kin{
+        font-size:14px;
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        height: 200px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .more{
+        display:block;
+       
+      
+       
+    }
+    .product img{
+        width:250px;
+        height:250px;
+    }
+    
+    .img img{
+        height:600px;
+        width:400px;
+        margin-left:-15px;
+    }
+    .images{
+        display:block;
+        align-items: center;
+        justify-content: space-around;margin-top:100px;
+        margin-bottom: 30px;
+
+    }
+    .images div { 
+        margin-top:25px;
+        margin-left:20px;
+        width:350px;
+        height:300px;
+        font-size: 45px;
+    }
+    .item{
+        background-color: rgb(145, 110, 68);
+        max-width:100%;
+        height: 700px;
+        padding-top:50px;
+        color:white;
+        display:block;
+       
+    }
+}

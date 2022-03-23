@@ -1,0 +1,28 @@
+.itemadds{
+    position: fixed;
+     width:100px;
+     margin-top:20px;
+     padding:5px;
+     color:white;
+     font-family: sans-serif;
+     right:0;
+     top:200px;
+     z-index: 2222;
+     display: block;
+     
+ }
+ .itemadds img {
+     width:100px;
+     height:100px;
+ }
+
+ @media (max-width:700px) {
+     .itemadds img{
+
+
+     }
+     .itemadds{
+         margin-right:10px;
+     }
+ }
+ 

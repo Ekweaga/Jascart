@@ -1,0 +1,111 @@
+.headers{
+    height: 500px;
+   
+  
+  
+    background-image: linear-gradient(to right, rgba(49, 47, 47, 0.75), rgba(46, 6, 6, 0.5)),url(phone4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom:20px;
+}
+.headers .ok{
+    position: absolute;
+    left:35%;
+    top: 40%;color:white;
+    font-size:35px;
+}
+
+.productitems{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.products button{
+    color: beige;
+    background-color: rgb(223, 156, 68);
+}
+.productitems div{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 20px;
+    height: 400px;
+    
+  
+}
+.products{
+    background-color: white;
+    height:380px;
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    position:relative;
+    width:300px;
+    padding-bottom: 40px;
+   
+    
+}
+.products img{
+    width:200px;
+    margin:20px;
+    height:200px;
+}
+.products p{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top:-20px;
+}
+
+h2{
+    text-align: center;
+}
+
+@media (max-width:600px){
+
+    .headers .ok{
+        position: absolute;
+        left:30%;
+        top: 40%;
+        color:white;
+        font-size:25px;
+    }
+    .productitems{
+      
+        display:flex;
+    flex-wrap: no-wrap;
+    }
+    .products{
+        width: 80%;
+        margin:auto;
+        
+        background-color: white;
+        height:380px;
+        box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+        position:relative;
+       
+        padding-bottom: 40px;
+        padding-top:40px;
+    }
+    .products img{
+        width:200px;
+        height:200px;
+    }
+    .itemadd{
+        position: fixed;
+         width:200px;
+         background-color: rgb(15, 175, 108);
+         margin-top:20px;
+         padding:10px;
+         color:white;
+         font-family: sans-serif;
+         right:0;
+         z-index: 2222;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+}

@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-size:18px;
+    margin-left:30px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.top{
+    background-color: rgb(255, 255, 255);
+    color:rgb(235, 189, 103);
+  
+    margin-top:10px;
+  
+}
+.navbar{
+   
+    position: sticky;
+    color:white;
+    
+    top:0;
+    z-index: 23222;
+}
+li{
+    color:white;
+}
+.nav-item{
+    color:white;
+}
+.nav-link{
+    color:white;
+}
+
+@media(max-width:700px){
+   
+    .top p{
+        font-size:10px;
+        font-weight: 700;
+    }
+}

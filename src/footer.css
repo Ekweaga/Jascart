@@ -1,0 +1,29 @@
+.bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:25px;
+}
+
+.ceo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:600px){
+    .bottom{
+        display:block;
+        align-items: center;
+        justify-content: center;
+        
+    }
+  
+    .bot1{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin:15px;
+    }
+}
